@@ -1,0 +1,10 @@
+## Recursive program to calculate factorial of an integer
+
+> if a number is less than or equal to zero then simply return 1
+> Else return (recursively call) n * fact(n - 1)
+
+int fact(int number)
+{
+  if(number <= 0) return 1;
+  else return n * fact(n - 1); 
+}
